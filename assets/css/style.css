@@ -46,3 +46,84 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+.subtitulo {
+    text-align: center;
+    margin-block: 2rem;
+}
+
+ul {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 98%;
+}
+
+li {
+    margin-inline: 16px;
+    border: solid 1px rgb(175, 179, 175);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+.carrito {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.nombreFruta {
+    margin: 0;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+}
+
+.btnes {
+    display: flex;
+    gap: 5px;
+}
+
+.nombreFruta {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    ul {
+        width: 95%;
+    }
+
+    li {
+        padding: 5px;
+        margin-inline: 10px;
+        width: 100%;
+    }
+
+    .nombreFruta {
+        font-size: 12px;
+    }
+
+    .info {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .btnes {
+        font-size: 10px;
+        padding: 5px;
+    }
+}
