@@ -4,96 +4,118 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Carrito de compras</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
     <body>
         <h1>Productos</h1>
         <main>
             <article>
                 <h2>Frutilla 🍓</h2>
                 <p>Precio: $300</p>
-                <button type="button" class="btnAgregar" data-nombre="Frutilla" data-precio="300">
+                <button type="button" class="btnAgregar" data-nombre="Frutilla" data-precio="300" data-id="0">
                     Agregar
                 </button>
             </article>
             <article>
                 <h2>Guinda 🍒</h2>
                 <p>Precio: $500</p>
-                <button type="button" data-nombre="Guinda" data-precio="500">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Guinda" data-precio="500" data-id="1">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Kiwii 🥝</h2>
                 <p>Precio: $700</p>
-                <button type="button" data-nombre="Kiwii" data-precio="700">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Kiwii" data-precio="700" data-id="2">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Uva 🍇</h2>
                 <p>Precio: $350</p>
-                <button type="button" data-nombre="Uva" data-precio="350">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Uva" data-precio="350" data-id="3">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Melón 🍈</h2>
                 <p>Precio: $700</p>
-                <button type="button" data-nombre="Melón" data-precio="700">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Melón" data-precio="700" data-id="4">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Sandía 🍉</h2>
                 <p>Precio: $1000</p>
-                <button type="button" data-nombre="Sandía" data-precio="1000">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Sandía" data-precio="1000" data-id="5">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Mandarina 🍊</h2>
                 <p>Precio: $400</p>
-                <button type="button" data-nombre="Mandarina" data-precio="400">Agregar</button>
+                <button
+                    type="button"
+                    class="btnAgregar"
+                    data-nombre="Mandarina"
+                    data-precio="400"
+                    data-id="6"
+                >
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Plátano 🍌</h2>
                 <p>Precio: $450</p>
-                <button type="button" data-nombre="Plátano" data-precio="450">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Plátano" data-precio="450" data-id="7">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Piña 🍍</h2>
                 <p>Precio: $850</p>
-                <button type="button" data-nombre="Piña" data-precio="850">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Piña" data-precio="850" data-id="8">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Mango 🥭</h2>
                 <p>Precio: $500</p>
-                <button type="button" data-nombre="Mango" data-precio="500">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Mango" data-precio="500" data-id="9">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Manzana 🍎</h2>
                 <p>Precio: $200</p>
-                <button type="button" data-nombre="Manzana" data-precio="200">Agregar</button>
+                <button type="button" class="btnAgregar" data-nombre="Manzana" data-precio="200" data-id="10">
+                    Agregar
+                </button>
             </article>
             <article>
                 <h2>Arándanos 🫐</h2>
                 <p>Precio: $1500</p>
-                <button type="button" data-nombre="Arándanos" data-precio="1500">Agregar</button>
+                <button
+                    type="button"
+                    class="btnAgregar"
+                    data-nombre="Arándanos"
+                    data-precio="1500"
+                    data-id="11"
+                >
+                    Agregar
+                </button>
             </article>
         </main>
 
-        <h2 class="subtitulo">Carrito</h2>
-        <ul id="carritoLista">
-            <!-- <li>
-                <div class="carrito">
-                    <p class="nombreFruta">Frutilla</p>
-                    <div class="info">
-                        <p>Precio</p>
-                        <p>Cantidad</p>
-                        <p>Total:</p>
-                    </div>
-                    <div class="btnes">
-                        <button type="button">-</button>
-                        <button type="button">+</button>
-                        <button type="button">X</button>
-                    </div>
-                </div>
-            </li> -->
-        </ul>
+        <h2 class="subtitulo">Carrito de compra</h2>
+        <ul id="carritoLista"></ul>
 
         <template id="template">
             <li>
@@ -108,6 +130,16 @@
                         <button type="button" class="btnMenos">-</button>
                         <button type="button" class="btnMas">+</button>
                         <button type="button" class="btnEliminar">X</button>
+                    </div>
+                </div>
+            </li>
+        </template>
+
+        <template id="sumaTotal">
+            <li>
+                <div class="carrito">
+                    <div class="info">
+                        <p class="totalFruta">Total Compra: 20000</p>
                     </div>
                 </div>
             </li>

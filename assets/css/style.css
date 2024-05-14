@@ -47,9 +47,14 @@ button:hover {
     cursor: pointer;
 }
 
+.btnAgregar {
+    margin-top: 10px;
+}
+
 .subtitulo {
     text-align: center;
     margin-block: 2rem;
+    display: none;
 }
 
 ul {
@@ -89,7 +94,7 @@ p {
     margin-right: 50px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
     height: 100%;
 }
 
