@@ -72,7 +72,7 @@ li {
     display: flex;
     align-items: center;
     padding: 1rem;
-    width: 100%;
+    width: 98%;
 }
 
 p {
@@ -107,6 +107,11 @@ p {
     font-size: 22px;
 }
 
+.totalCarrito {
+    font-size: 20px;
+    font-weight: 700;
+}
+
 @media (max-width: 768px) {
     ul {
         width: 95%;
@@ -125,10 +130,15 @@ p {
     .info {
         font-size: 12px;
         margin-right: 5px;
+        text-align: center;
     }
 
     .btnes {
         font-size: 10px;
+        padding: 5px;
+    }
+
+    .conjunto {
         padding: 5px;
     }
 }
