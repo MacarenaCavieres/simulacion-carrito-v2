@@ -1,6 +1,6 @@
 # Carrito de Compras
 
-Este proyecto es una aplicación web simple de carrito de compras que permite a los usuarios agregar frutas a su carrito, ajustar las cantidades, y ver el total de su compra. El proyecto está desarrollado usando HTML, CSS y JavaScript. [Puedes ver la página aquí!]("https://macarenacavieres.github.io/simulacion-carrito-v2/")
+Este proyecto es una aplicación web simple de carrito de compras que permite a los usuarios agregar frutas a su carrito, ajustar las cantidades, y ver el total de su compra. El proyecto está desarrollado usando HTML, CSS y JavaScript. [Puedes ver la página aquí!](https://macarenacavieres.github.io/simulacion-carrito-v2/)
 
 ## Características
 
